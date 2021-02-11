@@ -1,6 +1,6 @@
 # Mapview Facet
 
-Facet leaflet maps by a factor or a character variable variable using Mapview package.
+Facet leaflet maps by a factor or a character variable using Mapview package.
 
 Function parameters:
 
