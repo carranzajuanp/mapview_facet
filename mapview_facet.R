@@ -2,7 +2,7 @@ mapview_facet <- function(x,f) {
   
   criteria=split(x,x[[f]])
   for (i in 1:length(criteria)) {
-    map=mapview(criteria[[i]])
+    map=mapview::mapview(criteria[[i]])
     assign(paste0("map_",i), map)
   }
   set=list(map_1)
